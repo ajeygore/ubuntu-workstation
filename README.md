@@ -7,4 +7,4 @@ This sets up new ubuntu machine as developer workstation with opinionated setup 
 Then copy and paste following command to setup development environment
 
 ```
-sudo sh -c "`curl -fsSL https://raw.githubusercontent.com/ajeygore/pi-workstation/main/rpi-devel-env.sh `"
+sudo sh -c "`curl -fsSL https://raw.githubusercontent.com/ajeygore/ubuntu-workstation/main/setup.sh`"
