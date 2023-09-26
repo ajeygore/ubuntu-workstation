@@ -1,22 +1,19 @@
 ---
-  - name: "Setting up Raspberry Pi as workstationt"
+  - name: "Setting up Ubuntu as workstationt"
     hosts: localhost
     connection: local 
     tasks:
 
-    - name: install screen
-      package:
-        name: screen
-        state: present
-
-    - name: Install Ruby
-      package: 
-        name: ruby
+    - name: Add RVM repository
+      apt_repository:
+        repo: ppa:rael-gc/rvm
         state: present
 
     - name: Install yadr packages
       package:
         name:
+          - screen
+          - ruby
           - software-properties-common
           - autoconf 
           - build-essential
@@ -34,6 +31,16 @@
           - wget
           - zsh
           - golang
-          - rbenv
-        state: present
+          - autoconf
+          - bison
+          - libssl-dev
+          - libyaml-dev
+          - libreadline6-dev
+          - zlib1g-dev
+          - libncurses5-dev
+          - libffi-dev
+          - libgdbm6
+          - libdb-dev
+          - rvm
 
+        state: present
