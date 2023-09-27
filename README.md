@@ -3,8 +3,7 @@ This sets up new ubuntu machine as developer workstation with opinionated setup 
 
 ### Setting up workstation environment
 
-
-Then copy and paste following command to setup development environment
+Please copy and paste following command to setup development environment
 
 ```
-sudo sh -c "`curl -fsSL https://raw.githubusercontent.com/ajeygore/ubuntu-workstation/main/setup.sh`"
+sh -c "`curl -fsSL https://raw.githubusercontent.com/ajeygore/ubuntu-workstation/main/setup.sh`"
