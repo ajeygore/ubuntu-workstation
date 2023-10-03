@@ -9,3 +9,4 @@ sudo /usr/sbin/update-locale LANG=$LANG
 wget https://raw.githubusercontent.com/ajeygore/ubuntu-workstation/main/ubuntu.yml
 sudo ansible-playbook ubuntu.yml
 sh -c "`curl -fsSL https://raw.githubusercontent.com/ajeygore/dotfiles/master/install.sh `"
+rvm group add rvm "$USER"
