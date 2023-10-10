@@ -12,6 +12,7 @@ Please copy and paste following command to setup development environment
 ```
 sh -c "`curl -fsSL https://raw.githubusercontent.com/ajeygore/ubuntu-workstation/main/setup.sh`"
 
+```
 
 ### Setting up Lima on Mac
 
