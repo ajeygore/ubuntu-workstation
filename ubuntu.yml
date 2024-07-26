@@ -4,11 +4,6 @@
     connection: local 
     tasks:
 
-    - name: Add RVM repository
-      apt_repository:
-        repo: ppa:rael-gc/rvm
-        state: present
-
     - name: Install yadr packages
       package:
         name:
